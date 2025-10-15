@@ -18,7 +18,8 @@ const wmsLayer = new TileLayer
           'FORMAT': 'image/png',
           tiled: true,
           "STYLES": '',
-          "LAYERS": 'parking:data'  // geoserver에서 postgreSQL의 data 테이블과 연결하도록 정의한 레이어.
+          "LAYERS": 'parking:data', 
+          "CQL_FILTER": "300 <= car_count"  // CQL_FILTER를 통해 필터링할 수 있다. 
         }
       }
     )
