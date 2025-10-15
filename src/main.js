@@ -18,8 +18,8 @@ const wmsLayer = new TileLayer
           'FORMAT': 'image/png',
           tiled: true,
           "STYLES": '',
-          "LAYERS": 'parking:data', 
-          "CQL_FILTER": "300 <= car_count"  // CQL_FILTER를 통해 필터링할 수 있다. 
+          "LAYERS": 'parking:data',  // geoserver에서 postgreSQL의 orak 테이블과 연결하도록 정의한 레이어.
+          "CQL_FILTER": "300 <= car_count"
         }
       }
     )
@@ -44,8 +44,8 @@ const map = new Map
     view: new View
     (
       {
-        center: [0, 0],
-        zoom: 2
+        center: [14141228.61632484, 4510829.790027254],
+        zoom: 10
       }
     )
   }
