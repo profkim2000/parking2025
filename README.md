@@ -348,6 +348,10 @@ geoserver에서는 postgreSQL등에 저장된 공간 데이터를 이용해 WMS,
 
 ## 6. openlayers 
 
+![](img/20251015155707.png)
+
+geoserver에서 보내주는 데이터를 이용해 지도 앱을 만들어 보자.
+
 <br>
 
 ### 가. openlayers 프로젝트 생성
