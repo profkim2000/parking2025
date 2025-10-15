@@ -1,0 +1,13 @@
+## 1. 자료 구하기
+
+## 2. 자료 전처리
+
+## 3. postgresql에 자료 올리기
+### 가. QGIS에서 읽기
+### 나. postgreSQL로 자료 보내기
+
+## 4. geoserver 처리
+### 가. posgreSQL의 자료를 하나의 레이어로 사용하기
+
+## 5. opnelayers 
+### 가. WMS로 자료 가져와서 보여주기
